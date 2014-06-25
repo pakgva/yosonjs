@@ -75,11 +75,13 @@ module.exports = function(grunt){
    //Load the plugin that provides the jasmine test
    grunt.loadNpmTasks('grunt-contrib-jasmine');
 
+   //load external tasks
+   grunt.task.loadTasks("./tasks/");
    //log the tasks
    grunt.log.write("running grunt for yoson");
    //enroll tasks
-   grunt.registerTask('spec', ['connect', 'jasmine:requirejs']);
-   grunt.registerTask('build', ['exec:clean', 'concat', 'uglify']);
-   grunt.registerTask('default', ['spec', 'build']);
-   //grunt.registerTask('default', ['spec']);
+   //grunt.registerTask('spec', ['connect', 'jasmine:requirejs']);
+   //grunt.registerTask('build', ['exec:clean', 'concat', 'uglify']);
+   //grunt.registerTask('default', ['spec', 'build']);
+   grunt.registerTask('default', ['concatenate']);
 }
