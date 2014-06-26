@@ -6,9 +6,9 @@ define([
     "comps/comunicator",
 ], function(yOSON){
     yOSON.AppCore = (function(){
-        var objModular = new yOSON.Modular(),
-            dependencyManager = new yOSON.DependencyManager(),
-            objComunicator = new yOSON.Comunicator(),
+        var objModular = new Modular(),
+            dependencyManager = new DependencyManager(),
+            objComunicator = new Comunicator(),
             dependenceByModule = {};
 
         //setting the main methods in the bridge of an module

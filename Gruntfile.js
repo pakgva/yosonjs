@@ -3,7 +3,6 @@ module.exports = function(grunt){
         requireConfigFile: 'RequireConfig.js'
     },
     filesToConcat = [
-       "src/comps/namespace.js",
        "src/comps/dependency.js",
        "src/comps/dependency-manager.js",
        "src/comps/modular.js",
