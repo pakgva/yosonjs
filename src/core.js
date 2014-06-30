@@ -1,6 +1,5 @@
 define([
     "yoson",
-    "comps/dependency",
     "comps/dependency-manager",
     "comps/modular",
     "comps/comunicator",
