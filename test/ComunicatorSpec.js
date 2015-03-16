@@ -1,5 +1,5 @@
 define([
-    '../../src/comps/communicator.js'
+    'yoson-comps-comunicator'
 ],
 function(Communicator){
     var objCommunicator;

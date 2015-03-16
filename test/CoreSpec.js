@@ -1,5 +1,5 @@
 define([
-   '../../src/core.js'
+   'yoson-core'
   ],
   function(yOSON){
 

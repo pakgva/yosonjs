@@ -1,5 +1,5 @@
 define([
-   '../../src/comps/dependency.js'
+   'yoson-comps-dependency'
   ],
   function(Dependency){
       describe('Dependency Component', function(){

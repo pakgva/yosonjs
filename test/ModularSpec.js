@@ -1,5 +1,5 @@
 define([
-   '../../src/comps/modular.js'
+   'yoson-comps-modular'
   ],
   function(Modular){
   describe('specModular', function(){

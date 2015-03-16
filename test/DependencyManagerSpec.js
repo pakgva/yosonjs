@@ -1,7 +1,7 @@
 define([
-   '../../src/comps/single-promise.js',
-   '../../src/comps/dependency.js',
-   '../../src/comps/dependency-manager.js'
+   'yoson-comps-single-promise',
+   'yoson-comps-dependency',
+   'yoson-comps-dependency-manager'
   ],
   function(SinglePromise, Dependency, DependencyManager){
       describe("DependencyManager Component", function(){

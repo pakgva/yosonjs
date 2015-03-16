@@ -1,6 +1,6 @@
 define([
-   '../../src/comps/modular-manager.js',
-   '../../src/comps/sequential.js'
+   'yoson-comps-modular-manager',
+   'yoson-comps-sequential'
   ],
   function(ModularManager, Sequential){
 

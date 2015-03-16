@@ -192,7 +192,7 @@ module.exports = function(grunt){
    //Load the plugin that provides the yuidoc
    grunt.loadNpmTasks('grunt-contrib-yuidoc');
    //Load the plugin that provides the generator of changelog file
-   grunt.loadNpmTasks('grunt-conventional-changelog');
+   grunt.loadNpmTasks(ƒ'grunt-conventional-changelog');
    //Load the plugin that provides the bump actions
    grunt.loadNpmTasks('grunt-bump');
    //Load the plugin for generate the report to coveralls service

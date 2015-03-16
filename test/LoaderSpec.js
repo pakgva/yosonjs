@@ -1,6 +1,6 @@
 define([
-   '../../src/comps/loader.js',
-   '../scripts/schema-demo.js'
+   'yoson-comps-loader',
+   'schema-demo'
   ],
   function(Loader, SchemaDemo){
       describe('LoaderComp', function(){
